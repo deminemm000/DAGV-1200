@@ -1,6 +1,6 @@
 //Maya ASCII 2025ff03 scene
-//Name: thefinalroom.ma
-//Last modified: Sun, Dec 08, 2024 08:57:54 PM
+//Name: thefinalfinalroom.ma
+//Last modified: Sun, Dec 08, 2024 08:58:24 PM
 //Codeset: UTF-8
 requires maya "2025ff03";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" -nodeType "aiSkyDomeLight"
@@ -12,7 +12,7 @@ fileInfo "product" "Maya 2025";
 fileInfo "version" "2025";
 fileInfo "cutIdentifier" "202407121012-8ed02f4c99";
 fileInfo "osv" "Mac OS X 14.6.1";
-fileInfo "UUID" "95B69234-A146-C7BF-6231-80A32A3B2F51";
+fileInfo "UUID" "74D5FFBB-C146-5AA1-8654-42A8242AE684";
 createNode transform -s -n "persp";
 	rename -uid "FCD34CE5-E440-C945-CD93-C2A960ABB470";
 	setAttr ".v" no;
@@ -68253,4 +68253,4 @@ connectAttr "aiAreaLight1.iog" ":defaultLightSet.dsm" -na;
 connectAttr "aiAreaLight2.iog" ":defaultLightSet.dsm" -na;
 connectAttr "aiAreaLight3.iog" ":defaultLightSet.dsm" -na;
 connectAttr "aiAreaLight4.iog" ":defaultLightSet.dsm" -na;
-// End of thefinalroom.ma
+// End of thefinalfinalroom.ma
